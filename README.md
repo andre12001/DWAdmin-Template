@@ -31,6 +31,9 @@ because I want this template to be enjoyed by others
 ### Demo Template
 Url : https://andre12001.github.io/
 
+### Blog me : 
+URL : https://www.calonkita.com/
+
 ## 🧑 Author
 
 👤 <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>.
