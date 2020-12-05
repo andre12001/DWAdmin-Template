@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Typography - DWAdmin</title>
+
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.css">
+	<!-- Style CSS (White)-->
+	<link rel="stylesheet" href="assets/css/White.css">
+	<!-- Style CSS (Dark)-->
+	<link rel="stylesheet" href="assets/css/Dark.css">
+	<!-- FontAwesome CSS-->
+	<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.css">
+	<!-- Icon LineAwesome CSS-->
+	<link rel="stylesheet" href="assets/vendors/lineawesome/css/line-awesome.min.css">
+
+</head>
+<body>
+  
+  <!--Topbar -->
+  <div class="topbar transition">
+	<div class="bars">
+		<button type="button" class="btn transition" id="sidebar-toggle">
+			<i class="las la-bars"></i>
+		</button>
+	</div>
+	<div class="menu">
+	
+		<ul>
+
+			 <li>
+				<div class="theme-switch-wrapper">
+						<label class="theme-switch" for="checkbox">
+							<input type="checkbox" id="checkbox"  title="Dark Or White"/>
+							<div class="slider round"></div>
+					  </label>
+					</div>
+				</li>
+
+				<li>
+					<a href="notifications.html" class="transition">
+						<i class="las la-bell"></i>
+						<span class="badge badge-danger notif">5</span>
+					</a>
+				</li>
+
+        <li>
+          <div class="dropdown">
+            <div class="dropdown-toggle" id="dropdownProfile" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <img src="assets/images/avatar/avatar-2.png" alt="Profile">
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownProfile">
+              
+              <a class="dropdown-item" href="profile.html">
+                <i class="las la-user mr-2"></i> My Profile
+              </a>
+  
+              <a class="dropdown-item" href="activity-log.html">
+                <i class="las la-list-alt mr-2"></i> Activity Log
+              </a>
+             
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="signin.html">
+                <i class="las la-sign-out-alt mr-2"></i> Sign Out
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+	<!--Sidebar-->
+	<div class="sidebar transition overlay-scrollbars">
+		<div class="logo">
+			<h2 style="font-weight: 700;" class="mb-0">DW<span style="font-weight: 500;">Admin</span></h2>
+		</div>
+
+		<div class="sidebar-items">
+			<div class="accordion" id="sidebar-items">
+				<ul>
+
+					<p class="menu">Apps</p>
+
+					<li>
+						<a href="index.html" class="items">
+							<i class="fa fa-tachometer-alt"></i>
+							<span>Dashoard</span>
+						</a>
+					</li>
+
+					
+					<p class="menu">User Interface</p>
+
+					<li id="headingOne">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapseOne"
+							aria-expanded="true" aria-controls="collapseOne">
+							<i class="fas la-cog"></i>
+							<span>Components</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapseOne" class="collapse submenu" aria-labelledby="headingOne" data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="components-alerts.html" >Alerts</a>
+							</li>
+
+							<li>
+								<a href="components-badge.html" >Badge</a>
+							</li>
+
+							<li>
+								<a href="components-breadcrumb.html" >Breadcrumb</a>
+							</li>
+
+							<li>
+								<a href="components-buttons.html" >Buttons</a>
+							</li>
+
+							<li>
+								<a href="components-card.html" >Card</a>
+							</li>
+
+							<li>
+								<a href="components-copllapse.html" >Collapse</a>
+							</li>
+
+							<li>
+								<a href="components-dropdown.html" >Dropdown</a>
+							</li>
+							
+							<li>
+								<a href="components-form.html" >Form</a>
+							</li>
+
+							<li>
+								<a href="components-listgroup.html" >List Group</a>
+							</li>
+
+							<li>
+								<a href="components-progress.html" >Progress</a>
+							</li>
+
+							<li>
+								<a href="components-table.html" >Table</a>
+							</li>
+						
+							<li>
+								<a href="components-todolist.html" >Todo List</a>
+							</li>
+
+							<li>
+								<a href="components-typography.html" >Typography</a>
+							</li>
+
+						 </ul>
+					</div>
+
+					<li>
+						<a href="blank-page.html" class="items">
+							<i class="lar la-meh-blank"></i>
+							<span>Blank Page</span>
+						</a>
+					</li>
+
+					<li id="headingTwo">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapseTwo"
+							aria-expanded="true" aria-controls="collapseTwo">
+							<i class="fas la-wrench"></i>
+							<span>Utilities</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapseTwo" class="collapse submenu" aria-labelledby="headingTwo" data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="colors.html" >Colors</a>
+							</li>
+							 
+						</ul>
+					</div>
+					
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapseThree"
+							aria-expanded="true" aria-controls="collapseThree">
+							<i class="fas la-plug"></i>
+							<span>Modules</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapseThree" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+						    <li>
+								<a href="modules-fontawesome.html">Font Awesome</a>
+							</li>
+		
+							<li>
+								<a href="modules-chartjs.html">Chart JS</a>
+							</li>
+
+						</ul>
+					</div>
+
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#forms"
+							aria-expanded="true" aria-controls="forms">
+							<i class="fas la-file-alt"></i>
+							<span>Forms</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="forms" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+						    <li>
+								<a href="forms-editor.html">Editor</a>
+							</li>
+		
+		
+							<li>
+								<a href="forms-Validation.html">Validation</a>
+							</li>
+						  
+
+						</ul>
+					</div>
+
+					<p class="menu">Pages</p>
+
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapsefour"
+							aria-expanded="true" aria-controls="collapsefour">
+							<i class="fas la-folder"></i>
+							<span>Auth</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapsefour" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="signin.html">Login</a>
+							</li>
+
+							<li>
+								<a href="signup.html">Register</a>
+							</li>
+
+							<li>
+								<a href="forgot.html">Forgot Password</a>
+							</li>
+
+						</ul>
+					</div>
+
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#errros"
+							aria-expanded="true" aria-controls="errros">
+							<i class="las la-exclamation-circle"></i>
+							<span>Errors</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="errros" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="errors-405.html">405</a>
+							</li>
+					
+							<li>
+								<a href="errors-404.html">404</a>
+							</li>
+
+							<li>
+								<a href="errors-403.html">403</a>
+							</li>
+
+						</ul>
+					</div>
+
+          <li>
+						<a href="Plugins.html" class="items">
+							<i class="fas la-pencil-ruler"></i>
+							<span>Plugins</span>
+						</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="sidebar-overlay"></div>
+
+
+	<!--Content Start-->
+	<div class="content transition">
+		<div class="container-fluid dashboard">
+			<h3>Typography</h3>
+		
+			<div class="row">
+        
+                    <!--Start Typography-->
+                  <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Headings</h4>
+                            <p class="card-description">
+                              Add tags <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> or class <code>.h1</code> to <code>.h6</code>
+                            </p>
+                            <div class="template-demo">
+                              <h1>h1. Heading</h1>
+                              <h2>h2. Heading</h2>
+                              <h3>h3. Heading</h3>
+                              <h4>h4. Heading</h4>
+                              <h5>h5. Heading</h5>
+                              <h6>h6. Heading</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Headings with secondary text</h4>
+                            <p class="card-description">
+                              Add faded secondary text to headings
+                            </p>
+                            <div class="template-demo">
+                              <h1>
+                                h1. Heading
+                                <small class="text-muted">
+                                  Secondary text
+                                </small>
+                              </h1>
+                              <h2>
+                                h2. Heading
+                                <small class="text-muted">
+                                  Secondary text
+                                </small>
+                              </h2>
+                              <h3>
+                                h3. Heading
+                                <small class="text-muted">
+                                  Secondary text
+                                </small>
+                              </h3>
+                              <h4>
+                                h4. Heading
+                                <small class="text-muted">
+                                  Secondary text
+                                </small>
+                              </h4>
+                              <h5>
+                                h5. Heading
+                                <small class="text-muted">
+                                  Secondary text
+                                </small>
+                              </h5>
+                              <h6>
+                                h6. Heading
+                                <small class="text-muted">
+                                  Secondary text
+                                </small>
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Display headings</h4>
+                            <p class="card-description">
+                              Add class <code>.display1</code> to <code>.display-4</code>
+                            </p>
+                            <div class="template-demo">
+                              <h1 class="display-1">Display 1</h1>
+                              <h1 class="display-2">Display 2</h1>
+                              <h1 class="display-3">Display 3</h1>
+                              <h1 class="display-4">Display 4</h1>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 d-flex align-items-stretch">
+                        <div class="row">
+                          <div class="col-md-12 grid-margin stretch-card">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Paragraph</h4>
+                                <p class="card-description">
+                                  Write text in <code>&lt;p&gt;</code> tag
+                                </p>
+                                <p>
+                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                  when an unknown printer took a galley not only five centuries,
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 grid-margin stretch-card">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Icon size</h4>
+                                <p class="card-description">
+                                  Add class <code>.icon-lg</code>, <code>.icon-md</code>, <code>.icon-sm</code>
+                                </p>
+                                <div class="row">
+                                  <div class="col-md-4 d-flex align-items-center">
+                                    <div class="d-flex flex-row align-items-center">
+                                      <i class="mdi mdi-compass icon-lg text-warning"></i>
+                                      <p class="mb-0 ml-1">
+                                        Icon-lg
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 d-flex align-items-center">
+                                    <div class="d-flex flex-row align-items-center">
+                                      <i class="mdi mdi-compass icon-md text-success"></i>
+                                      <p class="mb-0 ml-1">
+                                        Icon-md
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 d-flex align-items-center">
+                                    <div class="d-flex flex-row align-items-center">
+                                      <i class="mdi mdi-compass icon-sm text-danger"></i>
+                                      <p class="mb-0 ml-1">
+                                        Icon-sm
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Blockquotes</h4>
+                            <p class="card-description">
+                              Wrap content inside<code>&lt;blockquote class="blockquote"&gt;</code>
+                            </p>
+                            <blockquote class="blockquote">
+                              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                          </div>
+                          <div class="card-body">
+                            <blockquote class="blockquote blockquote-primary">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                            </blockquote>
+                          </div>
+                        </div>
+                      </div>
+                     
+                      <div class="col-md-12 grid-margin">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Text colors</h4>
+                            <p class="card-description">
+                              Use class <code>.text-primary</code>, <code>.text-secondary</code> etc. for text in theme colors
+                            </p>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <p class="text-primary">.text-primary</p>
+                                <p class="text-success">.text-success</p>
+                                <p class="text-danger">.text-danger</p>
+                                <p class="text-warning">.text-warning</p>
+                                <p class="text-info">.text-info</p>
+                              </div>
+                              <div class="col-md-6">
+                                <p class="text-light bg-dark pl-1">.text-light</p>
+                                <p class="text-secondary">.text-secondary</p>
+                                <p class="text-dark">.text-dark</p>
+                                <p class="text-muted">.text-muted</p>
+                                <p class="text-white bg-dark pl-1">.text-white</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Top aligned media</h4>
+                            <div class="media">
+                              <i class="mdi mdi-earth icon-md text-info d-flex align-self-start mr-3"></i>
+                              <div class="media-body">
+                                <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Center aligned media</h4>
+                            <div class="media">
+                              <i class="mdi mdi-earth icon-md text-info d-flex align-self-center mr-3"></i>
+                              <div class="media-body">
+                                <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Bottom aligned media</h4>
+                            <div class="media">
+                              <i class="mdi mdi-earth icon-md text-info d-flex align-self-end mr-3"></i>
+                              <div class="media-body">
+                                <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Highlighted Text</h4>
+                            <p class="card-description">
+                              Wrap the text in <code>&lt;mark&gt;</code> to highlight text
+                            </p>
+                            <p>
+                              It is a long <mark class="bg-warning text-white">established</mark> fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">List Unordered</h4>
+                            <ul>
+                              <li>Lorem ipsum dolor sit amet</li>
+                              <li>Consectetur adipiscing elit</li>
+                              <li>Integer molestie lorem at massa</li>
+                              <li>Facilisis in pretium nisl aliquet</li>
+                              <li>Nulla volutpat aliquam velit</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Bold text</h4>
+                            <p class="card-description">
+                              Use class<code>.font-weight-bold</code>
+                            </p>
+                            <p>
+                              It is a long <span class="font-weight-bold">established fact</span> that a reader will be distracted by the readable content
+                              of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                              more-or-less normal distribution
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">List Ordered</h4>
+                            <ol>
+                              <li>Lorem ipsum dolor sit amet</li>
+                              <li>Consectetur adipiscing elit</li>
+                              <li>Integer molestie lorem at massa</li>
+                              <li>Facilisis in pretium nisl aliquet</li>
+                              <li>Nulla volutpat aliquam velit></li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title text-primary">Underline</h4>
+                            <p class="card-description">
+                              Wrap in <code>&lt;u&gt;</code> tag for underline
+                            </p>
+                            <p>
+                              <u>lorem ipsum dolor sit amet, consectetur
+                                mod tempor incididunt ut labore et dolore
+                                magna aliqua.</u>
+                            </p>
+                          </div>
+                          <div class="card-body">
+                            <h4 class="card-title text-danger">Lowercase</h4>
+                            <p class="card-description">
+                              Use class <code>.text-lowercase</code>
+                            </p>
+                            <p class="text-lowercase">
+                              lorem ipsum dolor sit amet, consectetur
+                                mod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+                          </div>
+                          <div class="card-body">
+                            <h4 class="card-title text-warning">Uppercase</h4>
+                            <p class="card-description">
+                              Use class <code>.text-uppercase</code>
+                            </p>
+                            <p class="text-uppercase">
+                              lorem ipsum dolor sit amet, consectetur
+                                mod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">Mute</h4>
+                            <p class="card-description">
+                              Use class <code>.text-muted</code>
+                            </p>
+                            <p class="text-muted">
+                              lorem ipsum dolor sit amet, consectetur
+                                mod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+                          </div>
+                          <div class="card-body">
+                            <h4 class="card-title text-success">Strike</h4>
+                            <p class="card-description">
+                              Wrap content in <code>&lt;del&gt;</code> tag
+                            </p>
+                            <p>
+                              <del>
+                                lorem ipsum dolor sit amet, consectetur
+                                mod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                              </del>
+                            </p>
+                          </div>
+                          <div class="card-body">
+                            <h4 class="card-title text-info">Capitalized</h4>
+                            <p class="card-description">
+                              Use class <code>.text-capitalize</code>
+                            </p>
+                            <p class="text-capitalize">
+                              lorem ipsum dolor sit amet, consectetur
+                                mod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">List with icon</h4>
+                            <p class="card-description">Add class <code>.list-ticked</code> to <code>&lt;ul&gt;</code></p>
+                            <ul class="list-ticked">
+                              <li>Lorem ipsum dolor sit amet</li>
+                              <li>Consectetur adipiscing elit</li>
+                              <li>Integer molestie lorem at massa</li>
+                              <li>Facilisis in pretium nisl aliquet</li>
+                              <li>Nulla volutpat aliquam velit></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">List with icon</h4>
+                            <p class="card-description">Add class <code>.list-arrow</code> to <code>&lt;ul&gt;</code></p>
+                            <ul class="list-arrow">
+                              <li>Lorem ipsum dolor sit amet</li>
+                              <li>Consectetur adipiscing elit</li>
+                              <li>Integer molestie lorem at massa</li>
+                              <li>Facilisis in pretium nisl aliquet</li>
+                              <li>Nulla volutpat aliquam velit></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 grid-margin stretch-card">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 class="card-title">List with icon</h4>
+                            <p class="card-description">Add class <code>.list-star</code> to <code>&lt;ul&gt;</code></p>
+                            <ul class="list-star">
+                              <li>Lorem ipsum dolor sit amet</li>
+                              <li>Consectetur adipiscing elit</li>
+                              <li>Integer molestie lorem at massa</li>
+                              <li>Facilisis in pretium nisl aliquet</li>
+                              <li>Nulla volutpat aliquam velit></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              <!--End Start Typography-->
+		
+		</div>
+
+	</div>
+
+	<!-- Footer -->
+	<div class="footer transition">
+		<hr class="line">
+		<p>
+			&copy; 2020 All Right Reserved by <a href="#" target="_blank">DWAdmin</a>
+		</p>
+	</div>
+
+	<!-- Loader -->
+	<div class="loader">
+		<div class="spinner-border text-light" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+	
+	<div class="loader-overlay"></div>
+
+	<!-- Library Javascipt-->
+	<script src="assets/vendors/bootstrap/js/jquery.min.js"></script>
+	<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendors/bootstrap/js/popper.min.js"></script>
+	<script src="assets/js/script.js"></script>
+ </body>
+</html>

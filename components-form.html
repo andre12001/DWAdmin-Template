@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Forms - DWAdmin</title>
+
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.css">
+	<!-- Style CSS (White)-->
+	<link rel="stylesheet" href="assets/css/White.css">
+	<!-- Style CSS (Dark)-->
+	<link rel="stylesheet" href="assets/css/Dark.css">
+	<!-- FontAwesome CSS-->
+	<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.css">
+	<!-- Icon LineAwesome CSS-->
+	<link rel="stylesheet" href="assets/vendors/lineawesome/css/line-awesome.min.css">
+
+</head>
+<body>
+  
+  <!--Topbar -->
+  <div class="topbar transition">
+	<div class="bars">
+		<button type="button" class="btn transition" id="sidebar-toggle">
+			<i class="las la-bars"></i>
+		</button>
+	</div>
+	<div class="menu">
+	
+		<ul>
+
+			 <li>
+				<div class="theme-switch-wrapper">
+						<label class="theme-switch" for="checkbox">
+							<input type="checkbox" id="checkbox"  title="Dark Or White"/>
+							<div class="slider round"></div>
+					  </label>
+					</div>
+				</li>
+
+				<li>
+					<a href="notifications.html" class="transition">
+						<i class="las la-bell"></i>
+						<span class="badge badge-danger notif">5</span>
+					</a>
+				</li>
+
+				<li>
+					<div class="dropdown">
+						<div class="dropdown-toggle" id="dropdownProfile" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">
+							<img src="assets/images/avatar/avatar-2.png" alt="Profile">
+						</div>
+						<div class="dropdown-menu" aria-labelledby="dropdownProfile">
+							
+							<a class="dropdown-item" href="profile.html">
+								<i class="las la-user mr-2"></i> My Profile
+							</a>
+	
+							<a class="dropdown-item" href="activity-log.html">
+								<i class="las la-list-alt mr-2"></i> Activity Log
+							</a>
+						 
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="signin.html">
+								<i class="las la-sign-out-alt mr-2"></i> Sign Out
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--Sidebar-->
+	<div class="sidebar transition overlay-scrollbars">
+		<div class="logo">
+			<h2 style="font-weight: 700;" class="mb-0">DW<span style="font-weight: 500;">Admin</span></h2>
+		</div>
+
+		<div class="sidebar-items">
+			<div class="accordion" id="sidebar-items">
+				<ul>
+
+					<p class="menu">Apps</p>
+
+					<li>
+						<a href="index.html" class="items">
+							<i class="fa fa-tachometer-alt"></i>
+							<span>Dashoard</span>
+						</a>
+					</li>
+
+					
+					<p class="menu">User Interface</p>
+
+					<li id="headingOne">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapseOne"
+							aria-expanded="true" aria-controls="collapseOne">
+							<i class="fas la-cog"></i>
+							<span>Components</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapseOne" class="collapse submenu" aria-labelledby="headingOne" data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="components-alerts.html" >Alerts</a>
+							</li>
+
+							<li>
+								<a href="components-badge.html" >Badge</a>
+							</li>
+
+							<li>
+								<a href="components-breadcrumb.html" >Breadcrumb</a>
+							</li>
+
+							<li>
+								<a href="components-buttons.html" >Buttons</a>
+							</li>
+
+							<li>
+								<a href="components-card.html" >Card</a>
+							</li>
+
+							<li>
+								<a href="components-copllapse.html" >Collapse</a>
+							</li>
+
+							<li>
+								<a href="components-dropdown.html" >Dropdown</a>
+							</li>
+							
+							<li>
+								<a href="components-form.html" >Form</a>
+							</li>
+
+							<li>
+								<a href="components-listgroup.html" >List Group</a>
+							</li>
+
+							<li>
+								<a href="components-progress.html" >Progress</a>
+							</li>
+
+							<li>
+								<a href="components-table.html" >Table</a>
+							</li>
+						
+							<li>
+								<a href="components-todolist.html" >Todo List</a>
+							</li>
+
+							<li>
+								<a href="components-typography.html" >Typography</a>
+							</li>
+
+						 </ul>
+					</div>
+
+					<li>
+						<a href="blank-page.html" class="items">
+							<i class="lar la-meh-blank"></i>
+							<span>Blank Page</span>
+						</a>
+					</li>
+
+					<li id="headingTwo">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapseTwo"
+							aria-expanded="true" aria-controls="collapseTwo">
+							<i class="fas la-wrench"></i>
+							<span>Utilities</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapseTwo" class="collapse submenu" aria-labelledby="headingTwo" data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="colors.html" >Colors</a>
+							</li>
+							 
+						</ul>
+					</div>
+					
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapseThree"
+							aria-expanded="true" aria-controls="collapseThree">
+							<i class="fas la-plug"></i>
+							<span>Modules</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapseThree" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+						    <li>
+								<a href="modules-fontawesome.html">Font Awesome</a>
+							</li>
+		
+							<li>
+								<a href="modules-chartjs.html">Chart JS</a>
+							</li>
+
+						</ul>
+					</div>
+
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#forms"
+							aria-expanded="true" aria-controls="forms">
+							<i class="fas la-file-alt"></i>
+							<span>Forms</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="forms" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+						    <li>
+								<a href="forms-editor.html">Editor</a>
+							</li>
+		
+		
+							<li>
+								<a href="forms-Validation.html">Validation</a>
+							</li>
+						  
+
+						</ul>
+					</div>
+
+					<p class="menu">Pages</p>
+
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#collapsefour"
+							aria-expanded="true" aria-controls="collapsefour">
+							<i class="fas la-folder"></i>
+							<span>Auth</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="collapsefour" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="signin.html">Login</a>
+							</li>
+
+							<li>
+								<a href="signup.html">Register</a>
+							</li>
+
+							<li>
+								<a href="forgot.html">Forgot Password</a>
+							</li>
+
+						</ul>
+					</div>
+
+					<li id="headingThree">
+						<a href="onclick();" class="submenu-items" data-toggle="collapse" data-target="#errros"
+							aria-expanded="true" aria-controls="errros">
+							<i class="las la-exclamation-circle"></i>
+							<span>Errors</span>
+							<i class="fas la-angle-right"></i>
+						</a>
+					</li>
+					<div id="errros" class="collapse submenu" aria-labelledby="headingThree"
+						data-parent="#sidebar-items">
+						<ul>
+
+							<li>
+								<a href="errors-405.html">405</a>
+							</li>
+					
+							<li>
+								<a href="errors-404.html">404</a>
+							</li>
+
+							<li>
+								<a href="errors-403.html">403</a>
+							</li>
+
+						</ul>
+					</div>
+
+					<li>
+						<a href="Plugins.html" class="items">
+							<i class="fas la-pencil-ruler"></i>
+							<span>Plugins</span>
+						</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="sidebar-overlay"></div>
+
+
+	<!--Content Start-->
+	<div class="content transition">
+		<div class="container-fluid dashboard">
+			<h3>Forms</h3>
+		
+            <div class="row">
+        
+                <!--Start Form-->
+                <div class="col-md-6 col-12">
+            
+                    <div class="card">
+                     <div class="card-header">
+                        <h4 class="card-title">Horizontal Form</h4>
+                        </div>
+                        <div class="card-content">
+                        <div class="card-body">
+                            <form class="form form-horizontal">
+                            <div class="form-body">
+                                <div class="row">
+                                <div class="col-md-4">
+                                    <label>First Name</label>
+                                </div>
+                                <div class="col-md-8 form-group">
+                                    <input type="text" id="first-name" class="form-control" name="fname" placeholder="First Name">
+                                </div>
+                                <div class="col-md-4">
+                                    <label>Email</label>
+                                </div>
+                                <div class="col-md-8 form-group">
+                                    <input type="email" id="email-id" class="form-control" name="email-id" placeholder="Email">
+                                </div>
+                                <div class="col-md-4">
+                                    <label>Mobile</label>
+                                </div>
+                                <div class="col-md-8 form-group">
+                                    <input type="number" id="contact-info" class="form-control" name="contact" placeholder="Mobile">
+                                </div>
+                                <div class="col-md-4">
+                                    <label>Password</label>
+                                </div>
+                                <div class="col-md-8 form-group">
+                                    <input type="password" id="password" class="form-control" name="password" placeholder="Password">
+                                </div>
+                                <div class="col-12 col-md-8 offset-md-4 form-group">
+                                    <div class='form-check'>
+                                        <div class="checkbox">
+                                            <input type="checkbox" id="checkbox1" class='form-check-input' checked>
+                                            <label for="checkbox1">Remember Me</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-primary mr-1 mb-1">Submit</button>
+                                    <button type="reset" class="btn btn-light-secondary mr-1 mb-1">Reset</button>
+                                </div>
+                                </div>
+                            </div>
+                          </form>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+            
+            
+                    <div class="col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-header">
+                        <h4 class="card-title">Horizontal Form with Icons</h4>
+                        </div>
+                        <div class="card-content">
+                        <div class="card-body">
+                            <form class="form form-horizontal">
+                            <div class="form-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label>Name</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group has-icon-left">
+                                            <div class="position-relative">
+                                                <input type="text" class="form-control" placeholder="Name" id="first-name-icon">
+                                                <div class="form-control-icon">
+                                                    <i data-feather="user"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group has-icon-left">
+                                            <div class="position-relative">
+                                                <input type="email" class="form-control" placeholder="Email" id="first-name-icon">
+                                                <div class="form-control-icon">
+                                                    <i data-feather="mail"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Mobile</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group has-icon-left">
+                                            <div class="position-relative">
+                                                <input type="number" class="form-control" placeholder="Mobile">
+                                                <div class="form-control-icon">
+                                                    <i data-feather="phone"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Password</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group has-icon-left">
+                                            <div class="position-relative">
+                                                <input type="password" class="form-control" placeholder="Password">
+                                                <div class="form-control-icon">
+                                                    <i data-feather="lock"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="form-group col-md-8 offset-md-4">
+                                    <div class='form-check'>
+                                        <div class="checkbox">
+                                            <input type="checkbox" id="checkbox2" class='form-check-input' checked>
+                                            <label for="checkbox2">Remember Me</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex justify-content-end ">
+                                    <button type="submit" class="btn btn-primary mr-1 mb-1">Submit</button>
+                                    <button type="reset" class="btn btn-light-secondary mr-1 mb-1">Reset</button>
+                                </div>
+                                </div>
+                            </div>
+                          </form>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+            
+            
+                <div class="row">
+                     <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Multiple Column</h4>
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <form class="form">
+                                            <div class="row">
+                                                <div class="col-md-6 col-12">
+                                                    <div class="form-group">
+                                                        <label for="first-name-column">First Name</label>
+                                                        <input type="text" id="first-name-column" class="form-control" placeholder="First Name" 
+                                                        name="fname-column">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                    <div class="form-group">
+                                                        <label for="last-name-column">Last Name</label>
+                                                        <input type="text" id="last-name-column" class="form-control" placeholder="Last Name"
+                                                            name="lname-column">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                    <div class="form-group">
+                                                        <label for="city-column">City</label>
+                                                        <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                    <div class="form-group">
+                                                        <label for="country-floating">Country</label>
+                                                        <input type="text" id="country-floating" class="form-control" name="country-floating"
+                                                            placeholder="Country">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                    <div class="form-group">
+                                                        <label for="company-column">Company</label>
+                                                        <input type="text" id="company-column" class="form-control" name="company-column"
+                                                            placeholder="Company">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                    <div class="form-group">
+                                                        <label for="email-id-column">Email</label>
+                                                        <input type="email" id="email-id-column" class="form-control" name="email-id-column"
+                                                            placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-12">
+                                                    <div class='form-check'>
+                                                        <div class="checkbox">
+                                                            <input type="checkbox" id="checkbox5" class='form-check-input' checked>
+                                                            <label for="checkbox5">Remember Me</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 d-flex justify-content-end">
+                                                    <button type="submit" class="btn btn-primary mr-1 mb-1">Submit</button>
+                                                    <button type="reset" class="btn btn-light-secondary mr-1 mb-1">Reset</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+              </div>
+
+            <!--End Form-->
+
+		</div>
+
+	</div>
+
+	<!-- Footer -->
+	<div class="footer transition">
+		<hr class="line">
+		<p>
+			&copy; 2020 All Right Reserved by <a href="#" target="_blank">DWAdmin</a>
+		</p>
+	</div>
+
+	<!-- Loader -->
+	<div class="loader">
+		<div class="spinner-border text-light" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+	
+	<div class="loader-overlay"></div>
+
+	<!-- Library Javascipt-->
+	<script src="assets/vendors/bootstrap/js/jquery.min.js"></script>
+	<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendors/bootstrap/js/popper.min.js"></script>
+	<script src="assets/js/script.js"></script>
+ </body>
+</html>

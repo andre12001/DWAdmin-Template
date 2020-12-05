@@ -1,0 +1,111 @@
+/**
+ * @package     : DWAdmin - Dasboard Admin Template
+ * @version     : 0.1   
+ * @author      : Andre Tri Ramadana
+ * @url         : -
+ *
+ *
+ * @CSS         : Dark
+ *
+ *
+ * DWAdmin
+ *
+ * DWAdmin is a clean & modern HTML5 admin template based on Bootstrap 4.
+ * DWAdmin will make it easier for you to create your own admin interface.
+*/
+
+/**
+ * TABLE OF CONTENTS
+ *
+ * 1. Font Color Dark CSS
+ * 2. Default CSS
+
+ */
+
+
+ /** 1. Font Color Dark CSS **/
+:root{
+    --font-color-nav: #818896;
+    --bg-card:#243042;
+    --bg-color: #1d2635;
+    --bg-sidebar-color: #243042;
+    --line-color: #2e3544;
+    --bg-submenu-sidebar-color: #344052;
+    --bg-color-2: #4d8af0;
+    --font-color-active: #f7f7f8;
+    --font-color: #f7f7f8;
+    --secondary-color: #818cab;
+    --color:#243042;
+    --primary-color: #9A97F3;
+}
+
+/** Default CSS **/
+[data-theme="dark"] body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    line-height: 1.5;
+}
+[data-theme="dark"] .topbar{
+    background-color: var(--bg-color);
+
+}
+[data-theme="dark"] .sidebar{
+    background-color: var(--bg-sidebar-color)
+}
+[data-theme="dark"] .sidebar .logo {
+	color: var(--font-color-sidebar);
+    background-color: var(--bg-sidebar-color)
+}
+[data-theme="dark"] .sidebar .sidebar-items .submenu{
+    background-color: var(--bg-submenu-sidebar-color)
+}
+[data-theme="dark"] .card {
+    background-color: var(--bg-card) 
+}
+[data-theme="dark"] .card-header {
+    background-color: var(--bg-card) 
+}
+[data-theme="dark"] .footer {
+    background-color: var(--bg-color) 
+}
+[data-theme="dark"] .footer, hr .line{
+	border-top: 1px solid var(--line-color);
+}
+[data-theme="dark"] .progress{
+    border: 1px solid var(--bg-color);
+    background-color: var(--bg-card) 
+}
+[data-theme="dark"] .dropdown-menu{
+    background-color: var(--bg-card) 
+}
+[data-theme="dark"] .dropdown-item{
+    color: var(--font-color) 
+}
+
+[data-theme="dark"] .list-group .list-group-item{
+    background-color: var(--bg-card) 
+}
+ 
+[data-theme="dark"] .list-group-item.active{
+    background-color: #007bff;
+}
+[data-theme="dark"] .table tr td, th{
+    color: var(--font-color);
+}
+
+[data-theme="dark"] .card-footer{
+    background-color: var(--bg-card);
+}
+[data-theme="dark"] .note-editor.note-airframe, .note-editor.note-frame{
+    background-color: var(--font-color);
+    color: var(--color) ;
+}
+
+[data-theme="dark"] #error {
+	background: var(--bg-color);
+}
+
+[data-theme="dark"] .topbar .bars button, .topbar .bars button:hover, .topbar .menu ul li a, .topbar .menu ul li a:hover,
+.topbar .menu ul li .dropdown-toggle:hover, .topbar .menu ul li .dropdown-toggle{
+    color: var(--font-color-nav);
+}
