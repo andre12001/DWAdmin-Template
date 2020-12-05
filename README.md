@@ -41,7 +41,7 @@ URL : https://www.calonkita.com/
 
 ## 🧑 Support me at : 
 
-- Trakteer : <a href="https://trakteer.id/andre12001"> @aandre12001</a>
+- Trakteer : <a href="https://trakteer.id/andre12001"> @andre12001</a>
 
 ## 📝 License
 - Copyright © 2020 DWAdmin
