@@ -32,7 +32,10 @@ because I want this template to be enjoyed by others
 Url : https://andre12001.github.io/
 
 ### Blog me : 
-URL : https://www.calonkita.com/
+Url : https://www.calonkita.com/
+
+### Channel : 
+Url : <a href="https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q?sub_confirmation=1"> Youtube</a>
 
 ## 🧑 Author
 
