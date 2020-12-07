@@ -8,16 +8,13 @@
 ```bash
 git clone https://github.com/andre12001/DWAdmin-Template.git
 ```
-2. buka dengan localhost ```localhost``` in browser.
+2. To view the website, browse to ```http://localhost/``` in a browser.
 
-
-### 🤔 What Is DWAdmin
-DWAdmin is a dashboard website made of bootstrap 4 and css and other libraries. This template is very light and suitable for use by companies and other things.
-
+## 🤔 What Is DWAdmin
+DWAdmin is a dashboard website made using Bootstrap 4, CSS and other libraries. This template is very lightweight and suitable for use by companies and other things.
 
 ### 🎉 Why is it open source?
-because I want this template to be enjoyed by others
-
+Because I want this template to be enjoyed by others.
 
 ### 🤨 DWAdmin features
 
@@ -29,13 +26,13 @@ because I want this template to be enjoyed by others
 - and we have many other themes
 
 ### Demo Template
-Url : https://andre12001.github.io/
+URL : https://andre12001.github.io/
 
 ### Blog me : 
-Url : https://www.calonkita.com/
+URL : https://www.calonkita.com/
 
 ### Channel : 
-Url : <a href="https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q?sub_confirmation=1"> Youtube</a>
+URL : <a href="https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q?sub_confirmation=1"> Youtube</a>
 
 ## 🧑 Author
 
