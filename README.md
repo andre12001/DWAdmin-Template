@@ -3,7 +3,7 @@
 ![DWAdmin](https://raw.githubusercontent.com/andre12001/DWAdmin-Template/main/example.jpg?raw=true)
 
 ## Live Demo
-https://andre12001.github.io/
+- https://andre12001.github.io/
 
 ## Installation
 1. Clone this repository.
