@@ -24,20 +24,19 @@ Because I want this template to be enjoyed by others.
 - Reset password page
 
 ### Demo Template
-URL : https://andre12001.github.io/
+- https://andre12001.github.io/
 
-### Blog me : 
-URL : https://www.calonkita.com/
+### Blog (Indonesian)
+- https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 
-### Channel : 
-URL : <a href="https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q?sub_confirmation=1"> Youtube</a>
+### YouTube
+- https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q
 
 ## 🧑 Author
-
-👤 <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>.
+- Facebook : <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>.
 - Github : <a href="https://github.com/andre12001"> @andre12001</a>
 
-## 🧑 Support me at : 
+## 🧑 Support me at
 
 - Trakteer : <a href="https://trakteer.id/andre12001"> @andre12001</a>
 
