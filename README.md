@@ -31,7 +31,7 @@ Because I want this template to be enjoyed by others.
 - Github : <a href="https://github.com/andre12001"> @andre12001</a>
 
 ## Blog (Indonesian)
-https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
+ - https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 
 ## 🧑 Support me at
 - Trakteer : <a href="https://trakteer.id/andre12001"> @andre12001</a>
