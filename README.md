@@ -18,7 +18,7 @@ Because I want this template to be enjoyed by others.
 ### Demo Template
 https://andre12001.github.io/
 
-### DWADmin Blog (Indonesian)
+### DWAdmin Blog (Indonesian)
 https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 
 ## 🤨 DWAdmin features
