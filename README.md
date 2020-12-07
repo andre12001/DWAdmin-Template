@@ -18,9 +18,6 @@ Because I want this template to be enjoyed by others.
 ### Demo Template
 https://andre12001.github.io/
 
-### DWAdmin Blog (Indonesian)
-https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
-
 ## 🤨 DWAdmin features
 - Responsive display
 - Has many themes including light and dark
@@ -32,6 +29,9 @@ https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 - YouTube: <a href="https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q">Andre Tri Ramadana</a>
 - Facebook : <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>
 - Github : <a href="https://github.com/andre12001"> @andre12001</a>
+
+### DWAdmin Blog (Indonesian)
+https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 
 ## 🧑 Support me at
 - Trakteer : <a href="https://trakteer.id/andre12001"> @andre12001</a>
