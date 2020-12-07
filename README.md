@@ -15,26 +15,23 @@ DWAdmin is a dashboard website made using Bootstrap 4, CSS and other libraries. 
 ### 🎉 Why is it open source?
 Because I want this template to be enjoyed by others.
 
-## 🤨 DWAdmin features
+### Demo Template
+https://andre12001.github.io/
 
+### DWADmin Blog (Indonesian)
+https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
+
+## 🤨 DWAdmin features
 - Responsive display
 - Has many themes including light and dark
 - Login page
 - Register page
 - Reset password page
 
-### Demo Template
-https://andre12001.github.io/
-
-### Blog (Indonesian)
-https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
-
-### YouTube
-https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q
-
 ## 🧑 Author
-- Facebook : <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>.
+- Facebook : <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>
 - Github : <a href="https://github.com/andre12001"> @andre12001</a>
+- YouTube: <a href="https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q">Andre Tri Ramadana</a>
 
 ## 🧑 Support me at
 
