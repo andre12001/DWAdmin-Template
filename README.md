@@ -18,7 +18,7 @@ DWAdmin is a dashboard website made using Bootstrap 4, CSS and other libraries. 
 ### Why is it open source?
 Because I want this template to be enjoyed by others.
 
-## 🤨 DWAdmin features
+### DWAdmin features
 - Responsive display
 - Has many themes including light and dark
 - Login page
