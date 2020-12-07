@@ -24,13 +24,13 @@ Because I want this template to be enjoyed by others.
 - Reset password page
 
 ### Demo Template
-- https://andre12001.github.io/
+https://andre12001.github.io/
 
 ### Blog (Indonesian)
-- https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
+https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 
 ### YouTube
-- https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q
+https://www.youtube.com/channel/UCDzN3CzrBwdCG-QXEp6u23Q
 
 ## 🧑 Author
 - Facebook : <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>.
