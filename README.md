@@ -2,15 +2,15 @@
 
 ![DWAdmin](https://raw.githubusercontent.com/andre12001/DWAdmin-Template/main/example.jpg?raw=true)
 
+## Live Demo
+https://andre12001.github.io/
+
 ## Installation
 1. Clone this repository.
 ```bash
 git clone https://github.com/andre12001/DWAdmin-Template.git
 ```
 2. To view the website, go to the cloned folder and then open the index.html file.
-
-## Demo Template
-https://andre12001.github.io/
 
 ## 🤔 What Is DWAdmin
 DWAdmin is a dashboard website made using Bootstrap 4, CSS and other libraries. This template is very lightweight and suitable for many applications.
@@ -30,11 +30,11 @@ Because I want this template to be enjoyed by others.
 - Facebook : <a href="https://www.facebook.com/andre123.co.id/">Andre Tri Ramadana</a>
 - Github : <a href="https://github.com/andre12001"> @andre12001</a>
 
-## Blog (Indonesian)
- - https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
-
 ## 🧑 Support me at
 - Trakteer : <a href="https://trakteer.id/andre12001"> @andre12001</a>
+
+## Blog (Indonesian)
+ - https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 
 ## 📝 License
 - Copyright © 2020 DWAdmin
