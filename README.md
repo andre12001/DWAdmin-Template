@@ -3,7 +3,7 @@
 ![DWAdmin](https://raw.githubusercontent.com/andre12001/DWAdmin-Template/main/example.jpg?raw=true)
 
 ## Live Demo
-- https://andre12001.github.io/
+https://andre12001.github.io/
 
 ## Installation
 1. Clone this repository.
@@ -34,7 +34,7 @@ Because I want this template to be enjoyed by others.
 - Trakteer : <a href="https://trakteer.id/andre12001"> @andre12001</a>
 
 ## Blog (Indonesian)
- - https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
+https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
 
 ## 📝 License
 - Copyright © 2020 DWAdmin
