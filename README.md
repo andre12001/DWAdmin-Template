@@ -33,9 +33,6 @@ Because I want this template to be enjoyed by others.
 ## 🧑 Support me at
 - Trakteer : <a href="https://trakteer.id/andre12001"> @andre12001</a>
 
-## Blog (Indonesian)
-https://www.calonkita.com/2020/12/template-dwadmin-dashboard.html
-
 ## 📝 License
 - Copyright © 2020 DWAdmin
 - **DWAdmin is open-sourced software licensed under the MIT license**
