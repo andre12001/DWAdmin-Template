@@ -5,6 +5,10 @@
 ## Live Demo
 https://andre12001.github.io/
 
+## Want the Latest Templates?
+
+open this demo link https://atranathemes.github.io/
+
 ## Installation
 1. Clone this repository.
 ```bash
